@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# assignment related
+data/*
+!data/.gitkeep
+Untitled*
+*Solution*.ipynb
