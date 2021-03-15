@@ -25,11 +25,17 @@ In this assignment, you will be practicing pandas library, in the following ways
 
 We will be using [Heart Disease Data Set](https://archive.ics.uci.edu/ml/datasets/Heart+Disease) from UCI.
 
-
 - [processed.cleveland.data](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data)
 - [processed.hungarian.data](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.hungarian.data)
 - [processed.switzerland.data](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.switzerland.data)
 - [processed.va.data](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.va.data)
+
+You **do not** need to download dataset. When the notebook runs, it will download the dataset into `data` folder. You may also use following code to download the dataset.
+
+``` py
+from data_prep import get_heart_disease_content
+get_heart_disease_content()
+```
 
 ## How to work on this Assignment?
 
